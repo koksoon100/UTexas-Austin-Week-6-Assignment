@@ -77,7 +77,7 @@ groups.size().unstack()
 
 ## 1 Customers earning exceeding 100K and below 100K
 
-For the figure below that less than 20% of customers with income between 100K to 110K have a personal loan. We could learn from the high precision model with more than 0.8 of recall and precision values to identify customers who would sign up personal loan. Using the print(pd.DataFrame(model.coef_)), we could identify the coefficient of the attributes and identify customers who are within the attribute values but have not signup a personal loan.
+For the figure below shown that less than 20% of customers with income between 100K to 110K have a personal loan. We could learn from the high precision model with more than 0.8 of recall and precision values to identify customers who would sign up personal loan. Using the print(pd.DataFrame(model.coef_)), we could identify the coefficient of the attributes and identify customers who are within the attribute values but have not signup a personal loan.
 
 
 ```python
