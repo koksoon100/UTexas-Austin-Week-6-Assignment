@@ -10,7 +10,7 @@ This case is about a bank (Thera Bank) whose management wants to explore ways of
 
 # Business understanding of the model
 
-We can divide the customers into different income groups depending on the constraints of sales resources in the Bank. As shown in figure below, the bank is able to offer personal loan products to customers with income exceeding 110K. However, it failed to capture significant percentage of customers who earn less than 110K.
+We can divide the customers into different income groups depending on the constraints of sales resources in the Bank. As shown in figure below, the bank is successful to offer personal loan products to customers with income exceeding 110K. However, it failed to capture significant percentage of customers who earn less than 110K.
 
 It is recommended that the bank starts to focus on customers with income below 100K and offers competitive personal loan products to attract them.
 
