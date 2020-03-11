@@ -83,15 +83,6 @@ generate_percentage_count = lambda x : pd.Series.value_counts(x)
 generate_categorical_values(bank_data_exceed_hundred_k, ["Personal Loan", "Securities Account", "CD Account", "Online", "CreditCard"]).apply(generate_percentage_count)
 ```
 
-    C:\Anaconda3\lib\site-packages\ipykernel_launcher.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      after removing the cwd from sys.path.
-    
-
-
 
 
 <div>
@@ -154,32 +145,12 @@ bank_data_exceed_hundred_k = bank_data[bank_data.Income<100]
 generate_percentage_count = lambda x : pd.Series.value_counts(x)
 generate_categorical_values(bank_data_exceed_hundred_k, ["Personal Loan", "Securities Account", "CD Account", "Online", "CreditCard"]).apply(generate_percentage_count)
 ```
-
-    C:\Anaconda3\lib\site-packages\ipykernel_launcher.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      after removing the cwd from sys.path.
-    
+ 
 
 
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
