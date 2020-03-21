@@ -1,4 +1,4 @@
-# UTexas-Week2
+# University of Texas @ Austin - Week 6
 
 
 # Thera Bank Personal Loan Campaign
